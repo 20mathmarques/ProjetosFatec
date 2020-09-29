@@ -1,0 +1,175 @@
+#slider {
+    background-color: #000000; /*cor fundo slider*/
+    display: flex;
+	height: 550px;
+	width:1100px;
+    flex-direction: column;
+}
+
+#slider #images {    
+    width: 100%;
+    height: 100%;
+    z-index: 0;    
+}
+
+#slider #images .image_block {
+    display: none;
+    background-color: white; /*COR DE FUNDO DO SLIDE QUANDO IMAGEM NAO PREENCHE-LO*/
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    overflow: hidden;
+}
+#slider #images .image_block img{
+	width:100%;
+	height: 100%;
+}
+
+#slider #controls {
+    display: flex;
+    justify-content: center;
+}
+
+#slider #controls #slide_buttons {
+    background-color: white;
+    padding: 10px 0px;
+    margin: 0;
+    list-style-type: none;
+    border-radius: 5px 5px 0px 0px;
+	margin-left:569px;
+	height:10px;
+}
+
+#slider #controls #slide_buttons li {
+    background-image:none; /*cor fundo botoes*/
+    background-size: contain;
+    background-position: center;
+    display: inline-flex;
+    width: 20px;
+    height: 5px;    
+    border-radius: 15px;    
+    cursor: pointer;
+}
+
+#slider #controls #slide_buttons li:not(:last-child) {
+    margin-right: 5px;
+}
+
+
+
+img{
+	/*cor e espessura da sombra*/
+	
+	box-shadow: 0px 0px 2px 2px gray;
+
+}
+
+article{
+	
+	margin-top:-900px;
+	
+}
+
+#img1{
+	/*dimensões da imagem*/
+	 /*tamanho da imagem*/
+	 /*curvatura da imagem*/
+	 /*espaço entre o inicio do nav entre a imagem*/
+	 /*determinando onde a imagem vai ficar para a direita*/
+	 height:250px;
+	 width:330px;
+	 border-radius:40px;
+	 position:relative;
+	 margin-top:10px;
+	 margin-left:10px;
+ }
+
+ 
+
+ #img2{
+	 /*tamanho da imagem*/
+	 /*curvatura da imagem*/
+	 /*espaço entre o inicio do nav entre a imagem*/
+	 /*determinando onde a imagem vai ficar para a direita*/
+	
+	 height:250px;
+	 width:330px;
+	 border-radius:40px;
+	 position:relative;
+	 margin-top:10px;
+	 margin-left:380px;
+	
+ }
+ 
+
+ #img3{
+	 /*tamanho da imagem*/
+	 /*curvatura da imagem*/
+	 /*espaço entre o inicio do nav entre a imagem*/
+	 /*determinando onde a imagem vai ficar para a direita*/
+	 
+	 height:250px;
+	 width:330px;
+	 border-radius:40px;
+	 position:relative;
+	 margin-top:20px;
+	 margin-left:10px;
+	 
+ }
+ 
+
+
+#txt1{
+	 /*tamanho do texto*/
+	 /*curvatura da texto*/
+	 /*espaço entre o inicio do nav entre o texto*/
+	 /*determinando onde o texto vai ficar para a direita*/
+	
+	 height:200px;
+	 width:540px;
+	 border-radius: 25px ;
+	 margin-left:450px;
+	 margin-top:80px;
+
+	 
+}
+
+#txt2{
+	 /*tamanho do texto*/
+	 /*curvatura da texto*/
+	 /*espaço entre o inicio do nav entre o texto*/
+	 /*determinando onde o texto vai ficar para a direita*/
+	 
+	 height:200px;
+	 width:540px;
+	 border-radius:25px ;
+	 margin-top:-240px;
+	 margin-left:80px;
+
+}
+#txt3{
+	 /*tamanho do texto*/
+	 /*curvatura da texto*/
+	 /*espaço entre o inicio do nav entre o texto*/
+	 /*determinando onde o texto vai ficar para a direita*/
+	
+	 height:200px;
+	 width:540px;
+	 border-radius: 25px ;
+	 margin-left:450px;
+	 margin-top:45px;
+	 
+}
+
+
+p{
+	word-break:keep-all;
+}
+
+a{
+  /*cor das letras dos links*/
+ 
+  color:black;
+}

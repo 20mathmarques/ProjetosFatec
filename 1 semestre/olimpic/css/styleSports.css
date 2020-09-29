@@ -1,0 +1,213 @@
+@charset "UTF-8";
+
+
+body{
+	 /*dimensões do body altura e largura*/
+	 /*começo do body*/
+	 height:1200px;
+	 width:1340px;
+	 margin-left:1px;
+}
+
+
+h2{
+		/*cor da letra*/
+		color:black;
+		font-family:Blippo,fantasy;
+}
+
+h1{
+	    /*estilo da fonte*/
+		/*sombra das letras : expesura e cor*/
+		/*cor da fonte*/
+		/*tanaho da fonte*/
+		color:#CC1E00;
+		font-size:50px;
+		font-family:Blippo, fantasy;
+}
+p{
+		/*tanaho da fonte*/
+		/*cor da fonte*/
+		/*estilo da fonte*/
+		
+		font-size:18px;
+		color:black;
+		font-family: Times, Times New Roman, serif;
+		word-break:keep-all;
+}
+
+article{
+		/*dimensões do article altura e largura*/ 
+		/*espaço entre o inicio do body entre o article*/
+		/*alinhamento do texto */
+		/*começo do article em relação ao body*/
+		
+		width:1090px;
+		height:1097px;
+		margin-top:-1115px;
+		text-align:center;
+		margin-left:248px;
+}
+
+img{
+	/*cor e espessura da sombra*/
+	
+	box-shadow: 0px 0px 2px 2px gray;
+
+}
+
+#img1{
+	/*dimensões da imagem*/
+	 /*tamanho da imagem*/
+	 /*curvatura da imagem*/
+	 /*espaço entre o inicio do nav entre a imagem*/
+	 /*determinando onde a imagem vai ficar para a direita*/
+	 height:250px;
+	 width:330px;
+	 border-radius:40px;
+	 position:relative;
+	 margin-top:40px;
+	 margin-left:-676px;
+ }
+
+ 
+
+ #img2{
+	 /*tamanho da imagem*/
+	 /*curvatura da imagem*/
+	 /*espaço entre o inicio do nav entre a imagem*/
+	 /*determinando onde a imagem vai ficar para a direita*/
+	
+	 height:250px;
+	 width:330px;
+	 border-radius:40px;
+	 position:relative;
+	 margin-top:40px;
+	 margin-left:700px;
+	
+ }
+ 
+
+ #img3{
+	 /*tamanho da imagem*/
+	 /*curvatura da imagem*/
+	 /*espaço entre o inicio do nav entre a imagem*/
+	 /*determinando onde a imagem vai ficar para a direita*/
+	 
+	 height:250px;
+	 width:330px;
+	 border-radius:40px;
+	 position:relative;
+	 margin-top:40px;
+	 margin-left:-676px;
+	 
+ } 
+#txt1{
+	 /*tamanho do texto*/
+	 /*curvatura da texto*/
+	 /*espaço entre o inicio do nav entre o texto*/
+	 /*determinando onde o texto vai ficar para a direita*/
+	
+	 height:200px;
+	 width:700px;
+	 border-radius: 25px ;
+	 margin-left:380px;
+	 margin-top:-200px;
+
+	 
+}
+
+#txt2{
+	 /*tamanho do texto*/
+	 /*curvatura da texto*/
+	 /*espaço entre o inicio do nav entre o texto*/
+	 /*determinando onde o texto vai ficar para a direita*/
+	 
+	 height:200px;
+	 width:650px;
+	 border-radius:25px ;
+	 margin-top:-200px;
+	 margin-left:60px;
+
+}
+#txt3{
+	 /*tamanho do texto*/
+	 /*curvatura da texto*/
+	 /*espaço entre o inicio do nav entre o texto*/
+	 /*determinando onde o texto vai ficar para a direita*/
+	
+	 height:200px;
+	 width:650px;
+	 border-radius: 25px ;
+	 margin-left:400px;
+	 margin-top:-200px;
+	 
+}
+
+
+ul {
+	 /*espaço entre o inicio do menu entre a menu*/
+	 /*dimensões do menu altura e largura*/ 
+	 /*tirando os efeitos de links/
+	 /*cor do fundo do menu*/ 
+	 /*afastamento lateral*/
+	 /*estilo do menu*/
+	 
+	 margin-top:-10px;
+	 width:248px;
+	 height:1099px;
+     list-style-type:none;
+	 background-color:#CC1E00;
+	 padding:0px;
+	 display:table;	
+	margin-left:-1px;
+}
+
+li:hover a{
+	 /*muda de cor quando passa o mouse*/
+	 color:#A9A9A9;
+	 transition: 0.5s;
+}
+
+li a{
+	 
+	  
+	 /*tirando os efeitos de links*/
+	 /*cor da letra*/ 
+	 /*estilo da fonte*/
+	 /*tamanho da fonte*/
+
+	 text-decoration:none;
+	 color:white;
+     font-family:Blippo,fantasy;
+	 font-size:20px;
+	  transition: 1s;
+
+}
+
+ul li{
+	/*estilo do separamento e quanto de separação*/
+	
+	display:table;
+	padding:50px 0px 50px 50px;
+}
+
+
+a{
+  /*cor das letras dos links*/
+ 
+  color:black;
+}
+footer{ 
+	 /*espaço entre o final do article entre o footer*/
+	 /*dimensões do footer altura e largura*/
+	 /*alinhamento do texto */
+	 /*tamanho da fonte*/
+	
+	 margin-top:45px;
+	 height:50px;
+	 width:1340px;
+	 text-align:center;
+	 font-size:12px;
+	
+}
