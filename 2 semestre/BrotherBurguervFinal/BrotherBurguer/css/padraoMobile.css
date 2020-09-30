@@ -1,0 +1,405 @@
+/*CSS PADRÃO MOBILE*/
+
+/*especificações do body*/
+body{
+	padding: 0px;
+	margin: 0px;
+	font-size: 1em;
+	font-family:Lucidatypewriter,monospace;
+	text-align:justify;
+	color:#fda400;
+	background-color: #fff;
+	text-decoration: none;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+p{
+	text-align: justify;
+}
+
+/*especificações de header*/
+header{
+	width: 100%;
+	height: 200px;
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+/*especificações do caixa*/
+#caixaCabecalho{
+	width:100%;
+    height:auto;
+    z-index:-1;
+    background-color: rgba(0, 0, 0, 0.498039);
+    float: left;
+}
+
+/*especificações dos icones*/
+.caixaIcone{
+	width: 40px;
+	height: 30px;
+	background-size: 70%;
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+	clear: both;
+	margin: 5px;
+}
+
+/*especificações de texto*/
+.caixaTexto{
+	width: auto;
+	height:auto;
+	margin: 5px;
+	line-height: 30px;
+	float:left;
+}
+/*especificações dos icones do cabecalho*/
+#instagram{
+	background-image: url(../img/icones/instagram.svg);
+}
+
+
+#whatsapp{
+	background-image: url(../img/icones/whatssap.svg);
+}
+
+
+#email{
+	background-image: url(../img/icones/email.svg);
+}
+
+
+#twitter{
+	background-image: url(../img/icones/twitter.svg);
+}
+
+
+#telefone{
+	background-image: url(../img/icones/telefone.svg);
+}
+
+nav{
+	width:100%;
+	height: auto;
+	background-color: #e69500;
+	float: left;
+	color: #fff;
+	min-height:40px;
+}
+nav a{
+	
+	width:180px;
+
+}
+
+nav:hover .itemMenu{
+	display:block;
+}
+
+
+
+/*especificações dos icones do menu */
+.itemMenu{
+	width: 180px;
+	height: 30px;
+	margin: 0 auto;
+	line-height: 30px;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-repeat: no-repeat;
+	background-position: left;
+	display:none;
+}
+
+#iconeMobile{
+	
+	width:50px;
+	height:40px;
+	margin-left:20px;
+
+}
+
+#iconeSobremesa{
+	background-image: url(../img/icones/dessert.svg);
+}
+
+
+#iconeHamburguer{
+	background-image: url(../img/icones/hamburguer.svg);
+}
+
+#iconeBebida{
+	background-image: url(../img/icones/bebida.svg);
+}
+
+#iconeLanche{
+	background-image: url(../img/icones/lanche.svg);
+}
+
+/*tamanho de conteudo*/
+#conteudo{
+	width: 100%;
+	height:auto;
+	float: left; 
+	color:#000;
+	font-family:Arial;
+}
+
+/*tamanho de footer*/
+footer{
+	width: 100%;
+	height: auto;
+	background-color: #262626;
+	clear: both;
+	float: left;
+}
+
+/*mudanças no rodape*/
+#caixaInfoRodape{
+	background-color: #262626;
+	width: 93%;
+	height: auto;
+	padding: 10px;
+	display:block;
+	clear: both;
+	margin-top: 0px;
+	
+}
+
+
+#menuRodape{
+	clear: both;
+	display:block;
+	margin:0 auto;
+}
+
+#menuRodape ul > li{
+	text-align: center;
+	list-style-type: none;
+	margin-top: 15px;
+}
+
+#caixaFormulario{
+	width: 100%;
+	height: auto;
+	outline: solid 1px #fff;
+	padding-bottom:5px; 
+}
+
+#caixaFormulario label{
+	display: block;
+	clear: both;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+#caixaFormulario input{
+	margin:0 auto;
+	display: block;
+	clear: both;
+}
+
+
+/*títulos*/
+
+h1{
+	text-align: center;
+	font-size: 2em;
+	margin-top:20px;
+	font-size:30px;
+	font-family:Segoe Script,cursive,Arial;
+	color:orange;
+
+}
+h2{
+	color:black;
+	font-family:Segoe Script,cursive,Arial;
+	margin-left:20px;
+}
+
+.preparo{
+		
+	clear:both;
+	width:90%;
+	margin:auto;
+	border-top:1px solid #000;
+}
+
+.mostrar{
+		
+	display:none;
+		
+}
+
+
+li{
+	list-style-type:none;
+}
+
+.texto{
+	color:black;
+}
+
+
+.receita{
+		
+		
+	width:100%;
+
+}
+
+
+.ingredientes ul li{
+		
+	list-style-type:circle; 
+		
+}
+
+
+
+@media only screen and (min-width: 601px) and (max-width: 1023px){
+
+	/*mudanças na receita*/
+
+	.receita div{
+		
+		float:left;
+
+	}
+
+	.ingredientes{
+		
+		width:60%;
+
+	}
+
+
+
+	.img{
+		
+		width:35%;
+		height:270px;
+		margin-left:20px;
+		 
+
+	}
+
+}
+
+@media only screen and (max-width: 600px){
+
+	/*mudanças na receita*/
+
+	.receita div{
+		
+		clear:both;
+
+	}
+
+	.ingredientes{
+		
+		width:100%;
+
+	}
+
+
+
+	.img{
+		
+		width:100%;
+		height:270px;
+		 
+
+	}
+
+}
+
+
+
+.img img{
+		
+	width:100%;
+	height:100%;
+	border-radius:8px  25px;
+		
+}
+
+#VoltaInicio{
+	margin: 0 auto;
+	display:block;
+	text-align:center;
+	margin-top: 20px;
+	width: 200px;
+	height: 30px;
+	line-height:30px;
+	padding:10px;
+	border-radius: 10px;
+	background-color: #fda400;
+	color:#262626;
+	font-weight: bold;
+	border:none;
+	
+}
+#botaoRodape{
+	
+	margin: 0 auto;
+	margin-top: 210px;
+	width: 50%;
+	height: 30px;
+	border-radius: 10px;
+	background-color: #fda400;
+	color:#262626;
+	font-weight: bold;
+	border:none;
+
+}
+
+#botaoContato{
+	
+	margin: 0 auto;
+	margin-bottom: 20px;
+	width: 100%;
+	height: 30px;
+	border-radius: 10px;
+	background-color: #fda400;
+	color:#262626;
+	font-weight: bold;
+	border:none;
+
+}
+
+#caixaContato{
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+.formContato{
+	width: 100%;
+    height: 40px;
+    display:block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    font-family: Arial;
+}
+
+
+
+
+
+
+
+
+
+

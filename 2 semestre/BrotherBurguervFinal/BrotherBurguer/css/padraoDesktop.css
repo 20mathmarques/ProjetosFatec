@@ -1,0 +1,430 @@
+/*CSS PADRÃO DESKTOP*/
+
+/*especificações do body*/
+body{
+	padding:0px;
+	margin:0px;
+	font-size: 1em;
+	color:#fda400;
+	background-color:  #fff;
+	text-align:justify;
+	font-family:Lucidatypewriter,monospace;
+}
+
+
+/*especificações de header*/
+header{
+	width: 100%;
+	height: 350px;
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+/*especificações do caixa*/
+#caixaCabecalho{
+	width:100%;
+    height:80px;
+    z-index:-1;
+    background-color: rgba(0, 0, 0, 0.498039);
+    float: left;
+}
+
+/*especificações dos icones*/
+.caixaIcone{
+	width: 5%;
+	height: 60%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 60%;
+	float: left;
+	margin-top: 17px;
+	margin-left: 5%;
+}
+
+
+/*especificações de texto*/
+.caixaTexto{
+	width: auto;
+	height:50px;
+	line-height: 50px;
+	margin-top: 17px;
+	float:left;
+}
+/*especificações do menu*/
+
+nav{
+	width:100%;
+	height: auto;
+	background-color: #e69500;
+	float: left;
+	color: #fff;
+	
+}
+.itemMenu:hover{
+	box-shadow: 10px 10px 10px black;
+	transition:0.5s;
+	
+}
+
+#menu{
+	
+	width:100%;
+	height:100px;
+	background-color:#e69500;
+	
+}
+
+#menu div{
+	height:100px;
+	float:left;
+	width:25%;
+	text-align:center;
+	color:#fff;
+	line-height:25px;
+	font-family:Lucidatypewriter,monospace;
+	font-size:19px;
+	font-weight:bold;
+	
+
+}
+
+
+a{
+	text-decoration: none;
+	color:#262626;
+}
+/*especificações dos icones do menu */
+
+.itemMenu{
+	width: 180px;
+	height: 30px;
+	float: left;
+	line-height: 30px;
+	text-align: center;
+	color: #fff;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-repeat: no-repeat;
+	margin-left: 7%;
+	margin-left:150px;
+}
+
+#iconeSobremesa{
+	background-image: url(../img/icones/dessert.svg);
+}
+
+#iconeMobile{
+	
+	display:none;
+
+}
+
+#iconeHamburguer{
+	background-image: url(../img/icones/hamburguer.svg);
+}
+
+#iconeBebida{
+	background-image: url(../img/icones/bebida.svg);
+}
+
+#iconeLanche{
+	background-image: url(../img/icones/lanche.svg);
+}
+
+#instagram{
+	background-image: url(../img/icones/instagram.svg);
+}
+
+
+#whatsapp{
+	background-image: url(../img/icones/whatssap.svg);
+}
+
+
+#email{
+	background-image: url(../img/icones/email.svg);
+}
+
+
+#twitter{
+	background-image: url(../img/icones/twitter.svg);
+}
+
+
+#telefone{
+	background-image: url(../img/icones/telefone.svg);
+}
+
+.iconMenu:hover{
+	box-shadow: 10px 10px 10px black;
+	transition:0.5s;
+	
+}
+/*tamanho de conteudo*/
+#conteudo{
+	width: 100%;
+	height:auto;
+	float: left; 
+	font-family:Arial;
+	color:#000;
+}
+/*tamanho de footer*/
+footer{
+	width: 100%;
+	height: auto;
+	background-color: #262626;
+	clear: both;
+	float: left;
+}
+/*mudanças no rodape*/
+#caixaInfoRodape{
+	background-color: #262626;
+	width: 98.5%;
+	height: auto;
+	padding: 10px;
+	display:block;
+	clear: both;
+	outline: solid 1px #fff;
+	margin-top: 0px;
+}
+
+#textoRodape{
+	text-align: center;
+	font-size: 0.8em;
+}
+.caixaEnderecoRodape1{
+	width: 50%;
+	height: auto;
+	outline:solid 1px #fff;
+	margin-left:100px;
+	float:left;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+.caixaEnderecoRodape2{
+	width: 98%;
+	height: 80px;
+	outline:solid 1px #fff;
+	text-align: center;
+	margin:0 auto;
+	margin-top: 3px;
+	line-height: 80px;
+	font-size: 20px;
+}
+
+#caixaIconeEndereco{
+	width: 48px;
+	height: 100%;
+	margin-left: 10px;
+	float: left;
+	background-image: url(../img/icones/mapa.png);
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#menuRodape{
+	float:left;
+	display:block;
+	font-family:Lucidatypewriter,monospace;
+	color:#fda400;
+}
+
+#menuRodape a{
+	color:#fda400;
+}
+
+
+#menuRodape ul > li{
+	margin-top:20px;
+	font-size:1.2em;
+	margin-left:15px;
+	color:#fda400;
+}
+
+#caixaFormulario{
+	width: 25%;
+	height: auto;
+	float: right;
+	margin-bottom:20px;
+}
+
+#caixaFormulario label{
+	display: block;
+	margin-bottom: 15px;
+	clear: both;
+	float: left;
+}
+
+#caixaFormulario input{
+	float: right;
+	margin-right: 50px;
+	margin-bottom: 15px;
+}
+/*títulos*/
+
+h1{
+	text-align: center;
+	font-size: 2em;
+	margin-top:20px;
+	font-size:30px;
+	font-family:Segoe Script,cursive,Arial;
+	color:orange;
+
+}
+h2{
+	color:black;
+	font-family:Segoe Script,cursive,Arial;
+	margin-left:20px;
+}
+
+/*mudanças na receita*/
+
+.preparo{
+	
+	clear:both;
+	width:90%;
+	margin:auto;
+    display:none;
+	border-top:1px solid #000;
+}
+
+.mostrar{
+	
+	margin:0 auto;
+	display:block;
+	width:200px;
+	height:25px;
+	border-radius:8px;
+	clear:both;
+	margin-bottom:20px;
+	font-weight:bold;
+	
+}
+
+
+li{
+	list-style-type:none;
+	margin-top:10px;
+}
+
+.texto{
+	color:black;
+}
+
+
+.receita{
+	
+	
+	width:100%;
+
+}
+
+.receita div{
+	
+	float:left;
+
+}
+
+.ingredientes{
+	
+	width:60%;
+
+}
+
+.ingredientes ul li{
+	
+	list-style-type:circle; 
+	margin-left:50px;
+	
+}
+
+
+.img{
+	
+	width:35%;
+	height:270px;
+	margin-left:30px;
+	
+
+}
+
+.img img{
+	
+	width:100%;
+	height:100%;
+	border-radius:8px  25px;
+	
+
+}
+
+#botaoRodape{
+	
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 50%;
+	height: 30px;
+	border-radius: 10px;
+	background-color: #fda400;
+	color:#262626;
+	font-weight: bold;
+	border:none;
+
+}
+
+#VoltaInicio{
+	margin: 0 auto;
+	display:block;
+	text-align:center;
+	margin-top: 20px;
+	width: 200px;
+	height: 30px;
+	line-height:30px;
+	padding:10px;
+	border-radius: 10px;
+	background-color: #fda400;
+	color:#262626;
+	font-weight: bold;
+	border:none;
+	
+}
+
+#botaoContato{
+	
+	margin: 0 auto;
+	margin-bottom: 20px;
+	width: 100%;
+	height: 30px;
+	border-radius: 10px;
+	background-color: #fda400;
+	color:#262626;
+	font-weight: bold;
+	border:none;
+
+}
+
+#caixaContato{
+	width: 600px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+.formContato{
+	width: 100%;
+    height: 40px;
+    display:block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    font-family: Arial;
+}
+
+#txtrodape{
+	text-align:center;
+}
+ 
+
