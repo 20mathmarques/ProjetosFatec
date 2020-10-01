@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="padrao.css"/>
+		<style>
+		
+
+			.videos{
+
+				color:#fff;
+				clear:both;
+
+			}
+
+
+			.video{
+
+				color:#fff;
+				font-weight:bold;
+				width:200px;
+				float:left;
+				margin-left:30px;
+				margin-bottom:50px;
+
+			}
+
+			.video img{
+
+				width:100%;
+				height:250px;
+
+			}
+			h1{
+
+				color:#fff;
+				font-size:40px;
+
+			}
+
+			#pesquisar{
+
+				color:#fff;
+				font-weight:bold;
+				font-size:20px;
+
+			}
+
+
+		</style>
+
+	</head>
+	<body>
+		<header>
+			<div id="logo"></div>
+		</header>
+		<nav>
+			<ul id="menu">
+				<a href="home.html"><li>Início</li></a>
+				<li>Gêneros
+					<ul class="submenu">
+						<a href="genero.html"><li>Ação</li></a>
+						<a href="genero.html"><li>Comédia</li></a>
+						<a href="genero.html"><li>Ficção</li></a>
+						<a href="genero.html"><li>Romance</li></a>
+						<a href="genero.html"><li>Terror</li></a>
+					</ul>
+				</li>
+
+				<li>Categorias
+					<ul class="submenu">
+						<a href="categoria.html"><li>Filmes</li></a>
+						<a href="categoria.html"><li>Desenhos</li></a>
+						<a href="categoria.html"><li>Séries</li></a>
+					</ul>
+				</li>
+				<li>Perfil
+					<ul class="submenu">
+						<a href="perfil.html"><li>Configurações</li></a>
+						<a href="login.html"><li>Sair</li></a>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+		<section id="main">
+			<form action="pesquisa.html" method="post" id="pesquisar">
+				O que você procura?
+				<input type="text" value="">
+				<input type="submit" value="Pesquisar">
+			</form>
+			<h1 style="color:white;">Genero</h1>
+			<div class="videos">
+				<a href="video.html">
+					<div class="video">
+						<img src="img/mario.png">
+						Mario bros:O filme
+					</div>
+				</a>
+				<a href="video.html">
+					<div class="video">
+						<img src="img/mortal.png">
+						Mario bros:O filme
+					</div>
+				</a>
+				<a href="video.html">
+					<div class="video">
+						<img src="img/dragonball.png">
+						Mario bros:O filme
+					</div>
+				</a>
+				<a href="video.html">
+					<div class="video">
+						<img src="img/boku.png">
+						Mario bros:O filme
+					</div>
+				</a>
+			</div>
+		</section>
+		<footer>
+			
+		</footer>
+	</body>
+</html>

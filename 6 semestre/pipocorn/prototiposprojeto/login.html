@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="js/jquery.js"></script>
+		<script src="js/jcycle.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="padrao.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	</head>
+	<body>
+		<header>
+			<div id="logo"></div>
+		</header>
+
+		<form id="login" action="home.html">
+			<div class="form-group">
+				<input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="E-mail:"  required>
+			</div>
+			<div class="form-group">
+				<input type="password" class="form-control" id="InputPassword1" placeholder="Senha" required >
+			</div>		
+			<div id="actions">
+			<button onclick="document.getElementById('id01').style.display='block'"  class="btn btn-secondary" id="btnFace">Facebook</button>
+			<a href="home.html"><button type="button" class="btn btn-primary" id="btnLogin">Login</button></a>
+			<button onclick="document.getElementById('id02').style.display='block'" class="btn btn-secondary" id="btnGoo">Google</button>
+			<a href="perfil.html"><button type="button" class="btn btn-danger" id="btnCad">Cadastre-se</button></a>
+			</div>
+		</form>
+		</section>
+		<!--Modal Facbook-->
+		<div class="w3-container">	  
+			<div id="id01" class="w3-modal" >
+				<div class="w3-modal-content" id="modal">
+				<header class="test"> 
+					<span onclick="document.getElementById('id01').style.display='none'"
+					class="w3-button w3-display-topright" id="x">&times;</span>
+					<h3 id="T">Login com Facebook</h3>	
+				</header>
+		<form id="login"	>	
+		<div class="form-group">
+				<input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="E-mail:"  required>
+			</div>
+			<div class="form-group">
+				<input type="password" class="form-control" id="InputPassword1" placeholder="Senha" required >
+			</div>		
+		</form>
+				<footer class="" id="footer">
+				<button class="btn btn-success" id="btnCad">Cadastrar</button>
+				</div>
+			</div>
+		</div>
+		<!--Modal Google-->
+		<div class="w3-container">	  
+				<div id="id02" class="w3-modal" >
+					<div class="w3-modal-content" id="modal">
+					<header class="test"> 
+						<span onclick="document.getElementById('id02').style.display='none'"
+						class="w3-button w3-display-topright" id="x">&times;</span>
+						<h3 id="T">Login com Google</h3>	
+					</header>
+			<form id="login"	>	
+			<div class="form-group">
+					<input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="E-mail:"  required>
+				</div>
+				<div class="form-group">
+					<input type="password" class="form-control" id="InputPassword1" placeholder="Senha" required >
+				</div>		
+			</form>
+					<footer class="" id="footer">
+					<button class="btn btn-success" id="btnCad">Cadastrar</button>
+					</div>
+				</div>
+			</div>
+	</body>
+</html>

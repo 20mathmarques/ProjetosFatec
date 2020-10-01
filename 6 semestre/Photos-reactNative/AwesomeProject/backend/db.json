@@ -1,0 +1,13 @@
+{
+    "users":[{
+        "id":1,
+        "name":"Matheus Marques",
+        "email":"teu213@hotmail.com",
+        "senha":123
+    },{
+        "id":2,
+        "name":"Rosiane Mendes",
+        "email":"rosianemendes@gmail.com",
+        "senha":123
+    }]
+}

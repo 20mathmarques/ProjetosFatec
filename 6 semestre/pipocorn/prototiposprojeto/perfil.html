@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="js/jquery.js"></script>
+		<script src="js/jcycle.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="padrao.css"/>
+	</head>
+	<body>
+		<header>
+			<div id="logo"></div>
+		</header>
+
+        <div class="form-group" id="img">
+                <label for="perfil">PERFIL</label>
+                <input type="file" class="form-control-file" id="file">
+                <img id="Img" style="width: 350px"/>
+                <script
+                    src="https://code.jquery.com/jquery-3.2.1.js"
+                    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+                    crossorigin="anonymous"></script>
+                </script>
+                <script>
+                    $(function () {
+                        $('#file').change(function(){
+                            const file = $(this)[0].files[0]
+                            const fileReader = new FileReader()
+                            fileReader.onloadend = function () {
+                                $('#Img').attr('src',fileReader.result)
+                                
+                            }
+                            fileReader.readAsDataURL(file)
+                        })
+                    })
+                </script>
+        </div>
+              
+		<form id="register">
+        
+         <div class="form-row">
+            <div class="col-md-4 mb-3">
+                <input type="text" class="form-control" id="name" placeholder="First name" required>
+            </div>
+            <div class="col-md-4 mb-3">
+                <input type="text" class="form-control" id="lasName" placeholder="Last name" required>
+            </div>
+                        
+            <div class="col-md-8 mb-3">
+                <input type="text" class="form-control" id="Rg" placeholder="RG:" required>
+            </div>
+
+            <div class="col-md-8 mb-3">
+                <input type="text" class="form-control" id="CPF" placeholder="CPF:" required>
+            </div>
+
+            <div class="col-md-8 mb-3">
+                <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="E-mail:" required>
+            </div>
+
+            <div class="col-md-8 mb-3">
+                <input type="password" class="form-control" id="InputEmail1" placeholder="Senha" required>
+            </div>
+        </form>   
+    </div>
+
+        <div id="pay">
+            <h3 id="payT">Formas de Pagamento</h3>
+            <button type="button" class="btn btn-outline-primary" id="visa">Visa</button>
+            <button type="button" class="btn btn-outline-light" id="boleto">Boleto</button>
+            <button type="button" class="btn btn-outline-success" id="nuB">Nubank</button>
+        </div>
+        <div id="fave">
+            <h3 id="faveT">Preferencias</h3>
+            <form class="ac-custom ac-checkbox ac-cross">
+                <ul>
+                    <li><input id="cb1" name="cb1" type="checkbox"><label for="cb1">Ação</label></li>
+                    <li><input id="cb2" name="cb2" type="checkbox"><label for="cb2">Aventura</label></li>
+                    <li><input id="cb3" name="cb3" type="checkbox"><label for="cb3">Terror</label></li>
+                    <li><input id="cb4" name="cb4" type="checkbox"><label for="cb4">Animação</label></li>
+                    <li><input id="cb5" name="cb5" type="checkbox"><label for="cb5">Documentarios</label></li>
+                </ul>
+            </form>
+        </div>
+			<div id="save">
+                 <a href="home.html"><button type="button" class="btn btn-primary" id="saveb" onClick="alert('Cadastro feito com sucesso')">Cadastrar</button></a>
+			</div>
+    </body>
+</html>
