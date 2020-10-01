@@ -1,0 +1,115 @@
+
+/*Muda os titulos*/
+h4{
+	
+  font-family:Trebuchet MS, sans-serif;
+  font-size:30px;
+  margin-left:650px;
+
+}
+/*muda os nomes que estão do lado do input*/
+.name{
+
+ font-family:Trebuchet MS, sans-serif;
+ font-size:20px;
+ margin-left: 500px;
+}
+
+/*muddança no input de time*/
+/*muda o 	input*/
+.txt{
+	font-family:Trebuchet MS, sans-serif;
+	border-radius: 25px;
+	width:300px;
+	height:20px;
+	margin-left: 50px;
+
+
+}
+/*muda o input*/
+.txt2{
+	font-family:Trebuchet MS, sans-serif;
+	border-radius: 25px;
+	width:300px;
+	height:20px;
+	margin-left: 12px;
+
+
+}
+
+
+
+/*mudanças no botao*/
+input{
+	font-family:Trebuchet MS, sans-serif;
+	border-radius: 25px;
+	width:100px;
+	height:30px;
+	margin-left: 500px;
+	margin-top: 20px;
+
+}
+
+.show{
+	font-family:Trebuchet MS, sans-serif;
+	border-radius: 25px;
+	width:100px;
+	height:30px;
+	margin-left: 290px;
+	margin-top: 20px;
+}
+
+.edit{
+	font-family:Trebuchet MS, sans-serif;
+	border-radius: 25px;
+	width:100px;
+	height:30px;
+	margin-left: 290px;
+	margin-top: 30px;
+}
+
+.delet{
+	font-family:Trebuchet MS, sans-serif;
+	border-radius: 25px;
+	width:100px;
+	height:30px;
+	margin-left: 250px;
+	margin-top: 30px;
+}
+/*mudanças no select*/
+select{
+
+	font-family:Trebuchet MS, sans-serif;
+	border-radius: 25px;
+	width:150px;
+	height:30px;
+	margin-left: 60px;
+	margin-top: 20px;
+
+}
+
+/*mudanças na imagem que vai manda para o menu*/
+img{
+	width:70px;
+	height:70px;
+}
+
+.list{
+	margin-left: 125px;
+	
+	width: 1000px;
+	font-family:Trebuchet MS, sans-serif;
+	font-size:25px;
+}
+
+p{
+	font-family:Trebuchet MS, sans-serif;
+  	font-size:25px;
+  	margin-left:650px;
+  	margin-top:40px;
+}
+.title{
+	font-family:Trebuchet MS, sans-serif;
+  	font-size:20px;
+  	margin-left:3px;
+}

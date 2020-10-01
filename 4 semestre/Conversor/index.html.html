@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+		<head>
+			
+		</head>
+		<body>
+			<style>
+			/*Caixa de texto que aparece o que foi digitado*/
+				#mensagem{
+
+					border:3px solid #000;
+					white-space: normal;
+					display:block;
+					text-align:justify-all;
+					margin-left: 750px;
+					margin-top: -318px;
+					overflow:auto;
+					
+
+				}
+				/*tanabho da caixa do texto que aparece automaticamente*/
+				div{
+
+					width:700px;
+					height:400px;
+					
+					resize:none;
+					float:left;
+
+				}
+
+				/**texto onde você pode digitar*/
+				#texto{
+
+					
+					width:700px;
+					height:400px;
+					margin-top:80px; 
+
+				}
+
+				.cor{
+
+					margin-top:20px;
+					width:50px;
+					height:50px;
+					border-radius:50px;
+
+				}
+
+				.botao{
+					margin-top: 10px;
+
+					
+				}
+			</style>
+			<script type="text/javascript">
+
+					function Pegarconteudo(valor){
+
+						document.getElementById("mensagem").innerHTML = valor;
+
+					}
+
+					function decorar(valor){
+
+						var texto = document.getElementById("texto").value;
+
+						document.getElementById("texto").value = texto+valor ;
+
+					}
+
+					function ajustar(valor){
+
+						document.getElementById("mensagem").style.fontSize=valor+"px";
+
+					}
+
+					function mudarCor(valor){
+
+						document.getElementById("mensagem").style.color=valor;
+
+					}
+
+					function mudarFonte(valor){
+
+						document.getElementById("mensagem").style.fontFamily=valor;
+
+					}
+
+			</script>
+			<div>
+
+				<div style="background-color:blue;" onClick="mudarCor('blue');" class="cor"></div>
+				<div style="background-color:red;" onClick="mudarCor('red');" class="cor"></div>
+				<div style="background-color:yellow;" onClick="mudarCor('yellow');" class="cor"></div>
+				<div style="background-color:green;" onClick="mudarCor('green');" class="cor"></div>
+				<div style="background-color:purple;" onClick="mudarCor('purple');" class="cor"></div>
+				<div style="background-color:gray;" onClick="mudarCor('gray');" class="cor"></div>
+				<div style="background-color:orange;" onClick="mudarCor('orange');" class="cor"></div>
+				<div style="background-color:black;" onClick="mudarCor('black');" class="cor"></div>
+
+				<div class="botao">
+
+				<input type="number" max="70" min="0" id="tfonte" placeholder="Tamanho da fonte" onblur="ajustar(this.value);">
+				
+				<input type="button" value="Negrito" onclick="decorar('<b></b>');">
+
+				<input type="button" value="Italico" onclick="decorar('<i></i>');">
+
+				<input type="button" value="Riscado" onclick="decorar('<s></s>');">
+
+				<input type="button" value="Sublinhado" onclick="decorar('<u></u>');">
+
+				<select id="fontes" placeholder="fontes" onchange="mudarFonte(this.value);">
+					<option value="Arial">Normal</option>
+					<option value="serif">Com Serifa</option>
+					<option value="monospace">Mono-espaçada</option>
+					<option value="cursive">Cursiva</option>
+					<option value="Brush Script MT">Cursiva 2</option>
+					<option value="fantasy">Decorativa</option>
+				</select>
+				<div>
+
+				<textarea id="texto"  placeholder="Digite aqui..." onkeydown="Pegarconteudo(this.value);" onkeyup="Pegarconteudo(this.value);"></textarea>
+			</div>
+			<div id="mensagem"></div>
+			
+		</body>
+</html>

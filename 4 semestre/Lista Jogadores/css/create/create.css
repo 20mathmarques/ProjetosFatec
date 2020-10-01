@@ -1,0 +1,108 @@
+
+
+/*Muda os titulos*/
+h4{
+	
+  font-family:Trebuchet MS, sans-serif;
+  font-size:30px;
+  margin-left:600px;
+
+}
+/*muda os nomes que estão do lado do input*/
+.name{
+
+ font-family:Trebuchet MS, sans-serif;
+ font-size:20px;
+ margin-left: 500px;
+}
+
+/*muddança no input de time*/
+/*muda o primeiro input*/
+.txt{
+	font-family:Trebuchet MS, sans-serif;
+	border-radius: 25px;
+	width:300px;
+	height:20px;
+	margin-left: 30px;
+
+
+}
+/*muda o segundo input*/
+.txt2{
+	font-family:Trebuchet MS, sans-serif;
+	border-radius: 25px;
+	width:300px;
+	height:20px;
+	margin-left: 12px;
+
+
+}
+/*muda o terceiro input*/
+.txt3{
+	font-family:Trebuchet MS, sans-serif;
+	border-radius: 25px;
+	width:200px;
+	height:20px;
+	margin-left: 25px;
+
+
+}
+
+/*Muda o input do jogador*/
+.tx{
+	font-family:Trebuchet MS, sans-serif;
+	border-radius: 25px;
+	width:300px;
+	height:20px;
+	margin-left: 60px;
+
+
+}
+/*muda o segundo input*/
+.tx2{
+	font-family:Trebuchet MS, sans-serif;
+	border-radius: 25px;
+	width:300px;
+	height:20px;
+	margin-left: 12px;
+
+
+}
+/*muda o terceiro input*/
+.tx3{
+	font-family:Trebuchet MS, sans-serif;
+	border-radius: 25px;
+	width:200px;
+	height:20px;
+	margin-left: 42px;
+
+}
+
+/*mudanças no botao*/
+button{
+	font-family:Trebuchet MS, sans-serif;
+	border-radius: 25px;
+	width:100px;
+	height:20px;
+	margin-left: 700px;
+	margin-top: 20px;
+
+}
+
+/*mudanças no select*/
+select{
+
+	font-family:Trebuchet MS, sans-serif;
+	border-radius: 25px;
+	width:150px;
+	height:30px;
+	margin-left: 20px;
+	margin-top: 20px;
+
+}
+
+/*mudanças na imagem que vai manda para o menu*/
+img{
+	width:70px;
+	height:70px;
+}

@@ -1,0 +1,104 @@
+
+/*Muda os titulos*/
+h4{
+	
+  font-family:Trebuchet MS, sans-serif;
+  font-size:30px;
+  margin-left:750px;
+
+}
+/*muda os nomes que estão do lado do input*/
+.name{
+
+ font-family:Trebuchet MS, sans-serif;
+ font-size:20px;
+ margin-left: 550px;
+}
+
+/*muddança no input de time*/
+/*muda o 	input*/
+.txt{
+	font-family:Trebuchet MS, sans-serif;
+	border-radius: 25px;
+	width:300px;
+	height:20px;
+	margin-left: 55px;
+
+
+}
+/*muda o input*/
+.txt2{
+	font-family:Trebuchet MS, sans-serif;
+	border-radius: 25px;
+	width:300px;
+	height:20px;
+	margin-left: 40px;
+
+
+}
+
+.txt3{
+	font-family:Trebuchet MS, sans-serif;
+	border-radius: 25px;
+	width:300px;
+	height:20px;
+	margin-left: 25px;
+
+
+}
+
+
+/*mudanças no botao*/
+input{
+	font-family:Trebuchet MS, sans-serif;
+	border-radius: 25px;
+	width:100px;
+	height:30px;
+	margin-left: 550px;
+	margin-top: 20px;
+
+}
+
+
+
+/*mudanças no select*/
+select{
+
+	font-family:Trebuchet MS, sans-serif;
+	border-radius: 25px;
+	width:150px;
+	height:30px;
+	margin-left: 20px;
+	margin-top: 20px;
+
+}
+
+button{
+
+	font-family:Trebuchet MS, sans-serif;
+	border-radius: 25px;
+	width:150px;
+	height:30px;
+	margin-left: 750px;
+	margin-top: 20px;
+
+}
+
+/*mudanças na imagem que vai manda para o menu*/
+img{
+	width:70px;
+	height:70px;
+}
+
+
+p{
+	font-family:Trebuchet MS, sans-serif;
+  	font-size:25px;
+  	margin-left:650px;
+  	margin-top:40px;
+}
+.hm{
+	font-family:Trebuchet MS, sans-serif;
+  	font-size:20px;
+  	margin-left:3px;
+}
